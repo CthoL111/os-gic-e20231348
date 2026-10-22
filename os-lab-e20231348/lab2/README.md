@@ -1,7 +1,8 @@
 # OS Lab 2 - File Management and Path Navigation Report
 
 ## Student Information
-- **Name:** Chanthol Yan
+- **Name:** YAN CHANTHOL
+- **ID:** e20231348
 - **Environment:** Ubuntu Linux (WSL)
 
 ## Setup Configuration
