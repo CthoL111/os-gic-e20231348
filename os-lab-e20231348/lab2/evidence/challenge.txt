@@ -1,0 +1,2 @@
+1. Quotes around *.txt turn it into a literal string rather than a wildcard, so the shell looks for a single file literally named "*.txt" instead of expanding it to match all text files.
+2. No, the command does not copy .hidden.txt because the * wildcard by default does not match filenames starting with a dot (.) unless it is explicitly written as .* to protect hidden system settings from accidental modifications.

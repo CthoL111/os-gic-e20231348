@@ -1,0 +1,6 @@
+reports/audit notes.txt
+reports/budget 2026.txt
+reports/README.txt
+TechCorp/Legal/archive/first-original.txt
+TechCorp/Legal/audit notes.txt
+TechCorp/Legal/budget 2026.txt
