@@ -1,0 +1,3 @@
+Producer (PID: 1694050): Wrote to shared memory: "Hello Pisey! Greetings from the Producer process."
+Consumer (PID: 1694056): Read from shared memory: "Hello Pisey! Greetings from the Producer process."
+Shared memory cleaned up successfully.
