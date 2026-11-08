@@ -14,17 +14,19 @@ int main() {
     printf("Parent process (PID: %lu) — Launching mspaint.exe...\n", GetCurrentProcessId());
 
     if (!CreateProcess(
-        _T("C:\\Windows\\System32\\mspaint.exe"), 
-        NULL,                                    
-        NULL,                                    
-        NULL,                                    
-        FALSE,                                   
-        0,                                       
-        NULL,                                    
-        NULL,                                    
-        &si,                                     
-        &pi                                      
-    )) {
+            NULL,            /* 1. Application Name (Change to NULL) */
+            "mspaint.exe",   /* 2. Command Line (Change to "mspaint.exe") */
+            NULL,           
+            NULL,          
+            FALSE,          
+            0,              
+            NULL,           
+            NULL,           
+            &si,            
+            &pi             
+        ))
+
+    {
         printf("CreateProcess failed (%lu).\n", GetLastError());
         return 1;
     }
