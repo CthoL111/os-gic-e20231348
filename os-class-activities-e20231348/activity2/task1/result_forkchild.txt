@@ -1,0 +1,10 @@
+total 36
+drwxrwxr-x 2 gic-yan-chanthol gic-yan-chanthol  4096 Nov  8 16:11 .
+drwxrwxr-x 7 gic-yan-chanthol gic-yan-chanthol  4096 Nov  8 14:34 ..
+-rw-rw-r-- 1 gic-yan-chanthol gic-yan-chanthol   732 Nov  8 14:36 command_used_forkchild.txt
+-rwxrwxr-x 1 gic-yan-chanthol gic-yan-chanthol 16392 Nov  8 16:11 forkchild
+-rw-rw-r-- 1 gic-yan-chanthol gic-yan-chanthol  1309 Nov  8 14:23 forkchild.c
+-rw-rw-r-- 1 gic-yan-chanthol gic-yan-chanthol     0 Nov  8 16:11 result_forkchild.txt
+Parent process (PID: 1694414) — creating child...
+Parent process (PID: 1694414) waiting for child (PID: 1694415) to finish...
+Parent: Child process exited with status 0.
