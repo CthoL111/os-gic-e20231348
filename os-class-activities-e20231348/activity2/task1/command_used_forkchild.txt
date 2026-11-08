@@ -1,0 +1,20 @@
+ 1643  mkdir -p task2
+ 1644  nano task2/winchild.c
+ 1645  git status
+ 1646  git add .
+ 1647  git status
+ 1648  git commit -m "Complete Class Activity 2 processes and IPC tasks for e20231348"
+ 1649  git push origin main
+ 1650  # 1. Fix Task 2 filename
+ 1651  mv task2/winchild.c task2/winprocess.c
+ 1652  # 2. Fix Task 3 folder and filenames
+ 1653  mv task3 task3_shm
+ 1654  mv task3_shm/producer.c task3_shm/shm-producer.c
+ 1655  mv task3_shm/consumer.c task3_shm/shm-consumer.c
+ 1656  # 3. Fix Task 4 folder
+ 1657  mv task4 task4_mq
+ 1658  # 4. Create the missing screenshots directory
+ 1659  mkdir screenshots
+ 1660  cd task1
+ 1661  ./forkchild > result_forkchild.txt 2>&1
+ 1662  history | tail -n 20 > command_used_forkchild.txt

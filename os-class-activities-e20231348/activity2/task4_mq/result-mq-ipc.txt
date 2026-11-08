@@ -1,0 +1,2 @@
+Receiver (PID: 1689410): Received message: "Structured Message from Sender via POSIX Queue!"
+Message queue cleaned up successfully.
