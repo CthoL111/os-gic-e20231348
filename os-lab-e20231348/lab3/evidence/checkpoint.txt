@@ -1,10 +1,1 @@
-
-=== CHECKPOINT VERIFICATION ===
-18875121 -rw-rw-r-- 3 gic-yan-chanthol gic-yan-chanthol 23 Nov  8 12:36 cp-tiger/panda-final.txt
-18875122 lrwxrwxrwx 1 gic-yan-chanthol gic-yan-chanthol 27 Nov  8 12:36 links/first.txt -> ../cp-tiger/panda-final.txt
-18875121 -rw-rw-r-- 3 gic-yan-chanthol gic-yan-chanthol 23 Nov  8 12:36 links/hard.txt
-18875121 -rw-rw-r-- 3 gic-yan-chanthol gic-yan-chanthol 23 Nov  8 12:36 links/second.txt
-hard.txt: checkpoint tiger panda
-second.txt: checkpoint tiger panda
-first.txt: checkpoint tiger panda
-stored target: ../cp-tiger/panda-final.txt
+checkpoint tiger panda
