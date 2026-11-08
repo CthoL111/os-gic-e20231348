@@ -1,0 +1,1 @@
+My guess was correct for the first pattern, but I initially overlooked that the second pattern would successfully include the .log extension since it matches any characters following the non-1 position.

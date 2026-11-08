@@ -1,0 +1,26 @@
+
+=== BEFORE RENAME ===
+18875082 -rw-rw-r-- 2 gic-yan-chanthol gic-yan-chanthol 12 Nov  8 10:54 silver-hard.txt
+18875107 lrwxrwxrwx 1 gic-yan-chanthol gic-yan-chanthol 10 Nov  8 11:36 silver-soft.txt -> silver.txt
+18875082 -rw-rw-r-- 2 gic-yan-chanthol gic-yan-chanthol 12 Nov  8 10:54 silver.txt
+hard: version 292
+soft: version 292
+stored target: silver.txt
+
+=== AFTER RENAME, BEFORE REPAIR ===
+18875082 -rw-rw-r-- 2 gic-yan-chanthol gic-yan-chanthol 12 Nov  8 10:54 silver-hard.txt
+18875082 -rw-rw-r-- 2 gic-yan-chanthol gic-yan-chanthol 12 Nov  8 10:54 silver-saved.txt
+18875107 lrwxrwxrwx 1 gic-yan-chanthol gic-yan-chanthol 10 Nov  8 11:36 silver-soft.txt -> silver.txt
+hard: version 292
+stored target: silver.txt
+soft: cat: silver-soft.txt: No such file or directory
+
+=== AFTER REPAIR ===
+18875082 -rw-rw-r-- 2 gic-yan-chanthol gic-yan-chanthol 12 Nov  8 10:54 silver-hard.txt
+18875082 -rw-rw-r-- 2 gic-yan-chanthol gic-yan-chanthol 12 Nov  8 10:54 silver-saved.txt
+18875107 lrwxrwxrwx 1 gic-yan-chanthol gic-yan-chanthol 16 Nov  8 11:46 silver-soft.txt -> silver-saved.txt
+hard: version 292
+stored target: silver-saved.txt
+soft: version 292
+
+Decision: I stored a relative target so the link remains portable; if it used an absolute path, moving the entire oslab-work folder to a different directory or system would break the path and turn it into a dangling link.
